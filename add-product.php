@@ -170,7 +170,7 @@ $testobj2 = new Product();
       <label>length (CM) </label>
       <input type="number" name="length" id="length">* 
       <br><br>
-      Please provide dimensions in HxWxL format
+      Please provide furniture dimensions
             <br><br>
           <input type="submit" name="submit3" value="Save" class="btn" action="index.php">
     </div>
