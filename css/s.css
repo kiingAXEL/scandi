@@ -1,0 +1,113 @@
+
+.frame {
+  border:3px solid black;
+  width: 200px;
+  height: 150px;
+  size: 50px;
+      float:left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+  padding-left: 20px;
+padding-right: 20px;
+padding-top: 40px;
+ text-align: center;
+
+}
+
+
+.content {
+
+
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+
+.delete-checkbox
+{
+    margin-left: -150px;
+  margin-top: -150px;
+}
+
+
+#list {
+  font-size: 40px;
+  padding-left: 50px;
+  margin-bottom: 5px;
+}
+
+#line {
+
+  background-image: url("line.png");
+  background-repeat: repeat-x;
+
+  background-size: auto 100%;
+  height:2px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.form{
+  padding-left:30px
+}
+
+select {
+
+  padding:10px;
+  border-radius:5px;
+  margin-left: 20px;
+}
+
+.btn, .cancel, .btn2, .add {
+
+  /* remove default behavior */
+  appearance:none;
+  -webkit-appearance:none;
+
+  /* usual styles */
+  padding:10px;
+  border:none;
+  background-color:grey;
+  color:#fff;
+  font-weight:600;
+  border-radius:5px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  float: left;
+
+
+}
+
+
+
+input[type=text] {
+  border-radius:5px;
+  padding: 5px;
+
+  margin-left:20px;
+float: left;
+
+
+
+}
+
+label {
+
+  float: left;
+  display: inline-block;
+  width: 5%;
+
+}
+
+input[type=number] {
+  border-radius:5px;
+  padding: 5px;
+
+  margin-left:20px;
+float: left;
+
+
+
+}
