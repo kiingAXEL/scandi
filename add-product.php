@@ -85,7 +85,7 @@ include 'classes/Product.class.php';
 
 $sku = $name = $price = $size = $height = $width = $lenght = $weight = "";
 $skuErr = $nameErr = $priceErr = $sizeErr = $heightErr = $widthErr = $lenghtErr = $weightErr = "";
-$testobj2 = new Product();
+
 ?>
 
 <div class="form">
