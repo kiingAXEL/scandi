@@ -28,20 +28,9 @@
         }
 
 
-    /*    .red {
-            background: red;
-        }
-
-        .green {
-            background: green;
-        }
-
-        .blue {
-            background: blue;
-        }
-        */
-    </style>
     
+    </style>
+
 
     <script src=
     "https://code.jquery.com/jquery-1.12.4.min.js">
@@ -103,17 +92,17 @@ $skuErr = $nameErr = $priceErr = $sizeErr = $heightErr = $widthErr = $lenghtErr 
 
 
       <label>SKU </label>
-      <input type="text" name="sku" id="sku">* 
+      <input type="text" name="sku" id="sku">*
       <br><br>
       <label>Name </label>
-      <input type="text" name="name" id="name">* 
-      
+      <input type="text" name="name" id="name">*
+
 
 
       <br><br>
       <label>Price($) </label>
-      <input type="text" name="price" id="price">* 
-     
+      <input type="text" name="price" id="price">*
+
       <br><br>
 
   </div>
@@ -138,8 +127,8 @@ $skuErr = $nameErr = $priceErr = $sizeErr = $heightErr = $widthErr = $lenghtErr 
     <div class="DVD box">
 
         <label>Size (MB) </label>
-        <input type="text" name="dvd_size" id="size">* 
-      
+        <input type="text" name="dvd_size" id="size">*
+
         <br><br>
       Please provide DVD Size
         <br><br>
@@ -151,7 +140,7 @@ $skuErr = $nameErr = $priceErr = $sizeErr = $heightErr = $widthErr = $lenghtErr 
     <!--Books-->
     <div class="Book box">
       <label for="fname">Weight (KG) </label>
-      <input type="text" name="weight" id="weight">* 
+      <input type="text" name="weight" id="weight">*
       <br><br>
       Please provide book weight
         <br><br>
@@ -161,13 +150,13 @@ $skuErr = $nameErr = $priceErr = $sizeErr = $heightErr = $widthErr = $lenghtErr 
     <!--Furniture-->
     <div class="Furniture box">
       <label>Height (CM) </label>
-      <input type="number" name="height" id="height">* 
+      <input type="number" name="height" id="height">*
       <br><br>
       <label>Width (CM)  </label>
-      <input type="number" name="width" id="width">* 
+      <input type="number" name="width" id="width">*
       <br><br>
       <label>length (CM) </label>
-      <input type="number" name="length" id="length">* 
+      <input type="number" name="length" id="length">*
       <br><br>
       Please provide furniture dimensions
             <br><br>
